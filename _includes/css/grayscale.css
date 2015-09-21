@@ -58,7 +58,7 @@ a:focus {
 }
 
 .light {
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .navbar-custom {
@@ -138,7 +138,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(/img/intro-bg.jpg) no-repeat scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -252,11 +252,11 @@ a:focus {
     padding-top: 100px;
 }
 
-.download-section {
+.resume-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url(/img/resume-bg.jpg) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -273,9 +273,10 @@ a:focus {
 @media(min-width:767px) {
     .content-section {
         padding-top: 200px;
+        height: 100%;
     }
 
-    .download-section {
+    .resume-section {
         padding: 100px 0;
     }
 
