@@ -2,7 +2,7 @@
 title: Sida Li
 email: davidli43 at hotmail.com
 url: sida.li
-description: "Personal website for Sida Li. Graduate in Computer Science and Psychology. Interested in Computer Vision."
+description: "Personal website for Sida Li. Research Programmer at University of Maryland Institute for Advanced Computer Studies"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -14,14 +14,10 @@ footer: Sida Li
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: facebook
-    url: https://www.facebook.com/sida.d.li
   - title: linkedin
     url: https://www.linkedin.com/pub/sida-li/58/279/644
   - title: github
     url: https://github.com/davidli43
-  - title: bitbucket
-    url: https://bitbucket.org/sidali2/
 
 # Build settings
 markdown: kramdown
