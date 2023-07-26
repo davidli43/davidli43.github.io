@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+}
+
+.title {
+    margin-top: 20px;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.video-container {
+    padding: 0 20px; /* Add 20px padding on both left and right for video centering */
+    display: flex;
+    justify-content: center; /* Center videos on wide-screen displays */
+    max-width: 100%;
+}
+
+#video-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribute videos with space between them */
+    margin-top: 30px;
+    max-height: calc(100vh - 80px); /* Set the maximum height, subtracting title and padding */
+    overflow-y: auto; /* Enable vertical scrolling */
+
+    /* Style the scrollbar to match the black background */
+    scrollbar-width: thin;
+    scrollbar-color: white black;
+}
+
+#video-list::-webkit-scrollbar {
+    width: 8px;
+}
+
+#video-list::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 8px;
+}
+
+.video-item {
+    margin: 10px;
+    width: 512px; /* Set fixed width for the video */
+    height: 512px; /* Set fixed height for the video */
+    border: 2px solid white;
+
+
+}
